@@ -1,0 +1,25 @@
+body{
+    background-color: grey;
+
+}
+
+table{
+    width: 200px;
+    height: 150px;
+    background-color: rgb(43, 44, 44);
+    border: 2px solid white;
+    border-radius: 26px;
+    color: white;
+    font-size: 2em;
+    margin: 30px;
+    transition: 0.2s;
+
+}
+
+button:hover {
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+    transition: 150ms;
+}
+

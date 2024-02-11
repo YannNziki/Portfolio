@@ -1,0 +1,174 @@
+body{
+	font-family: Verdana, Calibri, sans-serif;
+	margin: 0px;
+	padding: 0px;
+}
+
+nav > ul{
+	margin: 0px;
+	padding: 0px;
+}
+
+nav li{
+	list-style-type: none;
+}
+
+nav > ul > li{
+	float: left;
+}
+
+.submenu{
+	display: none;
+}
+
+nav input[type=checkbox]{
+	display: none;
+}
+
+.menu-mobile{
+	display: none;
+}
+
+nav{
+	width: 100%;
+	background-color: #424558;
+}
+
+nav > ul > li{
+	float: left;
+	position: relative;
+}
+
+nav > ul::after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+nav a{
+	display: inline-block;
+	text-decoration: none;
+}
+
+nav > ul > li > a{
+	padding: 20px 30px;
+	color: #FFF;
+}
+
+nav li:hover .submenu{
+	display: inline-block;
+	position: absolute;
+	top: 100%;
+	left: 0px;
+	padding: 0px;
+	z-index: 100000;
+}
+
+.submenu li{
+	border-bottom:1px solid #CCC;
+}
+
+.submenu li a{
+	padding: 15px 30px;
+	font-size: 13px;
+	color: #222538;
+	width: 270px;
+}
+
+.menu-html:hover{
+	border-top: 5px solid #852209;
+	background-color: rgba(0, 77, 38, 0.15);
+}
+
+.menu-certifications:hover{
+	border-top: 5px solid #a71057;
+	background-color: rgba(0, 77, 38, 0.15);
+}
+
+.menu-missions:hover{
+	border-top: 5px solid #852209;
+	background-color: rgba(0, 77, 38, 0.15);
+}
+
+.menu-bases:hover{
+	border-top: 5px solid #c18911;
+	background-color: rgba(0, 77, 38, 0.15);
+}
+
+.menu-php:hover{
+	border-top: 5px solid #2c1a54;
+	background-color: rgba(228, 77, 0, 0.15);
+}
+
+.menu-js:hover{
+	border-top: 5px solid #0f5627;
+	background-color: rgba(228, 0, 38, 0.15);
+}
+
+
+nav > ul > li:hover a{
+	padding: 15px 30px 20px 30px;
+}
+
+.menu-html .submenu{
+	background-color: rgba(228, 77, 38, 0.15);
+}
+
+.menu-php .submenu{
+	background-color: rgba(177, 199, 90, 0.15);
+}
+
+.menu-js .submenu{
+	background-color: rgba(17, 137, 158, 0.808);
+}
+
+
+.menu-certifications .submenu{
+
+	background-color: rgba(10, 225, 117, 0.15);
+}
+
+.menu-missions .submenu{
+	
+	background-color: rgba(194, 7, 223, 0.816);
+}
+
+.menu-bases .submenu{
+
+	background-color: rgba(10, 246, 128, 0.611);
+}
+
+
+.submenu li:hover a{
+	color: #EEE;
+	font-weight: bold;
+}
+
+.menu-html .submenu li:hover{
+	background-color: rgb(55, 0, 0, 1.0);
+}
+
+.menu-php .submenu li:hover{
+	background-color: rgb(0, 55, 0, 1.0);
+}
+
+.menu-js .submenu li:hover{
+	background-color: rgb(0, 0, 55, 1.0);
+}
+
+.menu-certifications .submenu li:hover{
+
+	background-color: rgba(4, 183, 93, 0.889);
+}
+
+.menu-missions .submenu li:hover{
+	
+	background-color: rgba(108, 204, 30, 0.15);
+}
+
+.menu-bases .submenu li:hover{
+
+	background-color: rgba(214, 134, 13, 0.9);
+}
+
+

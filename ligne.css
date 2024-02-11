@@ -1,0 +1,53 @@
+body{
+    background-color: grey;
+
+}
+
+button {
+    width: 120px;
+    height: 25px;
+    background-color: black;
+    border: 2px solid rgb(4, 4, 4);
+    border-radius: 10px;
+    color: rgb(251, 249, 249);
+    font-size: 1,5em;
+    margin: 30px;
+    transition: 0.2s;
+
+}
+
+table {
+    background-color: rgb(254, 249, 249);
+    border: 2px solid rgb(251, 251, 251);
+    border-radius: 10px;
+    color: rgb(7, 7, 7);
+    font-size: 1,5em;
+    margin: 30px;
+    transition: 0.2s;
+
+}
+
+button:hover {
+    background-color: rgba(255, 255, 255, 0.149);
+    border: 2px solid black;
+    color: black;
+    transition: 150ms;
+}
+
+
+
+
+
+
+tr {
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 26px;
+    color: white;
+    font-size: 1,5em;
+    margin: 30px;
+    transition: 0.2s;
+
+}
+
+

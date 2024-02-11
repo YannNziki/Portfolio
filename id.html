@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        
+    </head>
+    <body>
+
+
+        
+            <h1>Page d'identification</h1>
+            <div>
+            username : <input type="text" name="t1" id="t1">
+            PWD :  <input  type="passeword" name="t2" id="t2">
+            <button onclick="connexion2()">Connexion</button>
+            <button>Annuler</button>
+            </div>
+
+           
+        <script>
+            function connextion2(){
+                var username = document.getElementById('t1').value;
+                var passeword = document.getElementById('t2').value;
+                if (username == "admin" && passeword == "admin") {}
+                    else {
+                        window.location.href = "ligne.html"
+                    }
+                
+            }
+        </script>
+    </body>
+
+
+</html>
